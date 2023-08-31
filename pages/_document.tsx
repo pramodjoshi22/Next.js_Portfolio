@@ -8,9 +8,10 @@ export default function Document() {
         <div id={"globalLoader"}>
           <div className="loader">
             <svg
-              width="1100.601"
+            //size change
+              width="400.601"
               height="98.2"
-              viewBox="-100 -2 1081.601 97.2"
+              viewBox="-110 -5 1081.601 97.2"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
             >
