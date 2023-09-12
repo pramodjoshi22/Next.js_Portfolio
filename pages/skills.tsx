@@ -291,7 +291,15 @@ export default function Skills() {
     
     {
       name: "LinkedIn Learning",
-      url: "https://drive.google.com/drive/folders/1U677r2Nnmtq8pm8klai63iOYFMSuWxl6?usp=share_link",
+      url: "https://verify.skilljar.com/c/r53yo2mahsc6",
+    },
+    {
+      name: "Responsive Web Design",
+      url: "https://www.freecodecamp.org/certification/pramodjoshi_222/responsive-web-design",
+    },
+    {
+      name: "Front-End Web Development",
+      url: "https://drive.google.com/file/d/1AKQb9MxPqsfKlvx2V88_nEK-V4MLzDho/view",
     },
   ];
   return (

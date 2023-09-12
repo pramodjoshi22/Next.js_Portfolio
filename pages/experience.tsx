@@ -32,30 +32,30 @@ export default function Experience() {
       position: "Data Engineering",
       location: "Remote",
       date: "Jun 2023 - Aug 2023",
-      description: "",
+      description: "The goal of this project is to perform data analytics on Uber data using various tools and technologies, including GCP Storage, Python, Compute Instance, Mage Data Pipeline Tool, BigQuery, and Looker Studio.",
       stacks: ["Google Cloud Plateform", "Google Storage", "BigQuery", "Looker Studio"],
     },
     {
       name: "HR Data Analytics",
-      position: "Freelance FrontEnd Developer",
+      url: "https://github.com/pramodjoshi22/HR-Data-Analytics",
+      position: "Data Analysis",
       location: "Remote",
-      date: "January 2023 - July 2023",
-      description:
-        "Development of the front-end of the Gloovee web application",
+      date: "May 2023 - June 2023",
+      description: "The primary goal of this project is to visualize and analyze employee attrition.",
       stacks: ["NextJS", "SASS"],
     },
     {
       name: "Super Store Sales Analysis",
       url: "https://www.mboadigital.tech/",
-      position: "Digital Consultant",
-      location: "Yaoundé, Cameroon",
-      date: "August 2022 - April 2023",
+      position: "Data Analysis",
+      location: "Remote",
+      date: "March 2023 - April 2023",
       description:
-        "More than a front-end developer, I am here a Digital consultant. My goal is to design robust web applications with good UI/UX. While working as a team.",
+        "The Power BI Super Store Sales Data Analytics project is a comprehensive data visualization and forecasting endeavor designed to provide actionable insights into the sales performance of a retail store. By harnessing the capabilities of Microsoft Power BI, this project aims to empower decision-makers with valuable information about historical sales trends and equip them with a reliable 15-day sales forecast.",
       stacks: ["ReactJS", "Framer Motion", "TypeScript", "JavaScript", "SASS"],
     },
     {
-      name: "Freelance",
+      name: "Modern Youtube Clone",
       position: "Front-end Developer",
       location: "Remote",
       date: "From June 2021",
@@ -64,7 +64,7 @@ export default function Experience() {
       stacks: ["React", "NextJS", "VueJS", "Svelte", "SCSS", "TypeScript"],
     },
     {
-      name: "AfritechHub",
+      name: "Human Activity Recognition ",
       url: "https://afritechh.com/",
       position: "Web Trainer",
       location: "Douala",
@@ -76,7 +76,7 @@ export default function Experience() {
   ];
   const internships: Work[] = [
     {
-      name: "Mboa Digital",
+      name: "Geeksforgeeks",
       url: "https://www.mboadigital.tech/",
       position: "Front-end Developer",
       location: "Yaoundé, Cameroon",
@@ -86,7 +86,7 @@ export default function Experience() {
       stacks: ["ReactJS", "Framer Motion", "TypeScript", "JavaScript", "SASS"],
     },
     {
-      name: "LOHCE",
+      name: "E-cell IIT Bombay",
       url: "https://lohce.com/",
       position: "Front-end Developer",
       location: "Remote",
@@ -96,7 +96,7 @@ export default function Experience() {
       stacks: ["React"],
     },
     {
-      name: "Genuka",
+      name: "Oasis Infobyte",
       url: "https://genuka.com/",
       position: "Front-end Developer",
       location: "Remote",
@@ -108,7 +108,7 @@ export default function Experience() {
   ];
   const volunteerships: Work[] = [
     {
-      name: "Sharuco",
+      name: "Team Everst ",
       url: "https://sharuco.lndev.me/",
       position: "FrontEnd Developer",
       location: "Remote",
@@ -116,127 +116,50 @@ export default function Experience() {
       description: "Creator and developer of this web application",
       stacks: ["NextJS", "Shadcn/UI", "TypeScript", "Tailwind", "Firebase"],
     },
-    {
-      name: "Awwwards",
-      url: "https://www.awwwards.com/jury-member/ln-dev",
-      position: "Awwwards Young Jury",
-      location: "Remote",
-      date: "February 2023 - Present",
-      description:
-        "Member of the awwwards jury, a group of leading digital design professionals who use their experience and knowledge to judge web projects from all over the world.",
-    },
+   
   ];
   const sideProjects: PersonalWork[] = [
     {
-      name: "Sharuco",
+      name: "Uber Data Analysis",
       url: "https://sharuco.lndev.me/",
       image: "/projects/sharuco.png",
     },
     {
-      name: "LNUI",
+      name: "HR Data Analytics",
       url: "https://lnui.lndev.me/",
       image: "/projects/lnui.png",
     },
     {
-      name: "World Portfolios",
+      name: "Super Store Sales Analysis",
       url: "https://world-portfolios.vercel.app/",
       image: "/projects/world-portfolio.png",
     },
     {
-      name: "Sitrabcam",
+      name: "Modern Youtube Clone",
       url: "https://sitrabcam-web.leonelngoya.com/",
       image: "/projects/sitrabcam.png",
     },
     {
-      name: "Ulwo App",
+      name: "Human Activity Recognition",
       url: "https://ulwo.lndev.me/",
       image: "/projects/ulwo.png",
     },
     {
-      name: "Web App Photography",
+      name: "Cryptomitra",
       url: "https://webappphotography.leonelngoya.com/",
       image: "/projects/1.png",
     },
     {
-      name: "Canon Yaounde",
+      name: "Oasis Infobyte",
       url: "https://canon-yaounde.leonelngoya.com/",
       image: "/projects/3.png",
     },
     {
-      name: "Flutter Cameroon",
+      name: "Next.js Portfolio",
       url: "https://flutter-cameroon.leonelngoya.com/",
       image: "/projects/4.png",
     },
-    {
-      name: "ESF Website",
-      url: "https://esf-website.leonelngoya.com/",
-      image: "/projects/7.png",
-    },
-    {
-      name: "Warifa",
-      url: "https://warfira.leonelngoya.com/",
-      image: "/projects/8.png",
-    },
-    {
-      name: "Peef Dev",
-      url: "https://peef.leonelngoya.com/",
-      image: "/projects/5.png",
-    },
-    {
-      name: "CamerDjoss",
-      url: "https://camer-djoss.leonelngoya.com/",
-      image: "/projects/6.png",
-    },
-    {
-      name: "Queen Elizabeth II",
-      url: "https://queenelizabeth2.leonelngoya.com/",
-      image: "/projects/2.png",
-    },
-    {
-      name: "Pro Chakra UI",
-      url: "https://pro-chakra-ui-web.vercel.app/",
-      image: "/projects/pro-chakra-ui.png",
-    },
-    {
-      name: "App Expenses",
-      url: "https://app-expenses.vercel.app/",
-      image: "/projects/15.png",
-    },
-    {
-      name: "Monarc",
-      url: "https://monarc.leonelngoya.com/",
-      image: "/projects/10.png",
-    },
-    {
-      name: "App Formation",
-      url: "https://app-formation.leonelngoya.com/",
-      image: "/projects/9.png",
-    },
-    {
-      name: "GitHub User",
-      url: "https://githubuser.vercel.app/",
-      image: "/projects/14.png",
-    },
-    {
-      name: "Grid Animation",
-      url: "https://lndev-grid-animation-1.vercel.app/",
-      image: "/projects/16.png",
-    },
-    {
-      name: "Cameroon Logos",
-      url: "https://cameroon-logos.vercel.app/",
-      image: "/projects/11.png",
-    },
-    {
-      name: "Star Wars",
-      url: "https://star-wars-lime.vercel.app/",
-      image: "/projects/12.png",
-    },
-    {
-      name: "Space Tourism",
-      url: "https://space-tourism-ln-dev7.vercel.app/",
-      image: "/projects/13.png",
-    },
+    
   ];
 
   const [imageUrl, setImageUrl] = useState("");
@@ -546,7 +469,7 @@ export default function Experience() {
               ))}
               <h3>
                 <Link
-                  href="https://github.com/ln-dev7?tab=repositories"
+                  href="https://github.com/pramodjoshi22"
                   passHref
                   onMouseEnter={() => cursorChangeHandler("hovered")}
                   onMouseLeave={() => cursorChangeHandler("")}
