@@ -24,7 +24,17 @@ export default function Experience() {
     url: string;
     image: string;
   }
-
+  const patents: Work[] = [
+    {
+      name: "Heated Helmet for motorcycle riders",
+      url: "https://drive.google.com/file/d/1SjVSmhrE1QU4NyVQ2-AsXKUj1Aqd4SMo/view?usp=sharing",
+      position: "Patent Published",
+      location: "Remote",
+      date: "26 May 2023",
+      description: "Developed a prototype of a heated helmet for motorcycle riders. It provide exceptional warmth and comfort during rides. This helmet features an integrated heated padding system that effectively warms the rider's head. A soft and cushioned electric warmer is securely attached to the helmet, ensuring a cozy experience.The helmet operates using rechargeable batteries.",
+      stacks: ["Patent", "Journal"],
+    },
+  ]
   const works: Work[] = [
     {
       name: "Uber Data Analysis",
@@ -42,122 +52,153 @@ export default function Experience() {
       location: "Remote",
       date: "May 2023 - June 2023",
       description: "The primary goal of this project is to visualize and analyze employee attrition.",
-      stacks: ["NextJS", "SASS"],
+      stacks: ["PowerBI", "DAX Queries","Microsoft Excel"],
     },
     {
       name: "Super Store Sales Analysis",
-      url: "https://www.mboadigital.tech/",
+      url: "https://github.com/pramodjoshi22/Sales-Data-Analysis",
       position: "Data Analysis",
       location: "Remote",
       date: "March 2023 - April 2023",
       description:
         "The Power BI Super Store Sales Data Analytics project is a comprehensive data visualization and forecasting endeavor designed to provide actionable insights into the sales performance of a retail store. By harnessing the capabilities of Microsoft Power BI, this project aims to empower decision-makers with valuable information about historical sales trends and equip them with a reliable 15-day sales forecast.",
-      stacks: ["ReactJS", "Framer Motion", "TypeScript", "JavaScript", "SASS"],
+        stacks: ["PowerBI", "DAX Queries","Microsoft Excel"],
     },
     {
       name: "Modern Youtube Clone",
-      position: "Front-end Developer",
+      url: "",
+      position: "Front-end Developement",
       location: "Remote",
-      date: "From June 2021",
+      date: "November 2022",
       description:
-        " a freelancer I have worked for many independent clients and agencies around the world, especially in the position of front-end developer and also web integrator, my goal is to create robust web applications with a good UI/UX.",
-      stacks: ["React", "NextJS", "VueJS", "Svelte", "SCSS", "TypeScript"],
+        "Developed a Youtube clone with some new features and auto ad. skip feature.",
+      stacks: ["React", "NextJS", "RapidAPI", "SCSS"],
+    },
+    {
+      name: "We Code Club Website",
+      url: "https://wecodegehu.netlify.app/",
+      position: "Developer",
+      location: "On-site",
+      date: "August 2022",
+      description:
+        "Developed a fully functional dynamic website for tech-savvy students.",
+      stacks: ["HTML", "CSS", "JS","Bootstrap"],
     },
     {
       name: "Human Activity Recognition ",
-      url: "https://afritechh.com/",
-      position: "Web Trainer",
-      location: "Douala",
-      date: "April 2021",
+      url: "",
+      position: "Evaluation of Models",
+      location: "Remote",
+      date: "December 2021",
       description:
-        "For two weeks I trained students to become apprentices in web development including the basics of HTML5 - CSS3 - JavaScript.",
-      stacks: ["HTML", "CSS", "JS"],
+        "Every year, an estimated 684,000 deathttps://modernyoutubee.netlify.apphs occur globally due to falls. Hence, the motivation behind this project is to detect falls through postural changes.",
+      stacks: ["SVM", "ANN", "CNNLSTM"],
     },
   ];
   const internships: Work[] = [
     {
       name: "Geeksforgeeks",
-      url: "https://www.mboadigital.tech/",
-      position: "Front-end Developer",
-      location: "Yaoundé, Cameroon",
-      date: "June 2022 - August 2022",
-      description:
-        "During this internship my main goal was the development of websites respecting very specific designs, it allowed me to increase my skills in ReactJS and also to work better in a team.",
-      stacks: ["ReactJS", "Framer Motion", "TypeScript", "JavaScript", "SASS"],
+      url: "https://drive.google.com/file/d/1Cv4KCbCysNmK6nPsUgcfR9SRDTFhOamV/view",
+      position: "Technical Content Writer",
+      location: "Remote",
+      date: "March 2023 - June 2023",
+      description:"During this internship my main goal was to produce technical content on computer science related subjeccts.",
+      stacks: ["Compiler Design", "Computer Network", "Finite Automata"],
     },
     {
       name: "E-cell IIT Bombay",
-      url: "https://lohce.com/",
-      position: "Front-end Developer",
+      url: "https://drive.google.com/file/d/1SH1abzsevXLoaqyhei2DThpgP9FVl74S/view",
+      position: "Entrepreneurial Education",
       location: "Remote",
-      date: "April 2022 - June 2022",
+      date: "July 2022 - March 2023",
       description:
-        "The main goal of this internship was to create a prototype chat bot to help people buy a travel ticket online.",
-      stacks: ["React"],
+        "This internship's main aim is to spread entrepreneurship education among college students.",
+      stacks: ["NEC","Eureka Junior","EnSpace"],
     },
     {
       name: "Oasis Infobyte",
-      url: "https://genuka.com/",
-      position: "Front-end Developer",
+      url: "https://drive.google.com/file/d/1AKQb9MxPqsfKlvx2V88_nEK-V4MLzDho/view",
+      position: "Front-end Development",
       location: "Remote",
       date: "March 2022 - May 2022",
       description:
         "The main goal was the implementation of templates for Genuka stores through their API, I was also to form a team of two people for the accomplishment of this said task.",
-      stacks: ["Svelte"],
+      stacks: ["HTML","CSS","Javascript","Bootstrap"],
     },
+  ];
+  const Contribution: Work[] = [
+    {
+      name: "Questdb ",
+      url: "https://github.com/pramodjoshi22/questdb",
+      position: "Contributor",
+      location: "Remote",
+      date: "February 2022 - April 2022",
+      description: "Help to create an open source time-series database for fast ingest and SQL queries.",
+      stacks: ["Questdb", "Docker", "REST API", "Rust"],
+    },
+    {
+      name: "Welcome to Open Source",
+      url: "https://github.com/pramodjoshi22/Welcome-to-Open-Source",
+      position: "Contributor",
+      location: "Remote",
+      date: "June 2022 - Novomber 2022",
+      description: "Make your first PR request! And enter the world of Open Source Contributions ",
+      stacks: ["Open Source", "Basics"],
+    },
+   
   ];
   const volunteerships: Work[] = [
     {
       name: "Team Everst ",
-      url: "https://sharuco.lndev.me/",
-      position: "FrontEnd Developer",
+      url: "https://drive.google.com/file/d/1HVIcInh8PGJL2IZlJbtc3gGlyGkezM2q/view?usp=sharing",
+      position: "Curriculum Writing",
       location: "Remote",
-      date: "March 2023 - Present",
-      description: "Creator and developer of this web application",
-      stacks: ["NextJS", "Shadcn/UI", "TypeScript", "Tailwind", "Firebase"],
+      date: "January 2022 - Febuary 2022",
+      description: "Developed a curriculum book for teaching English to children.",
+      stacks: ["volunteership", "NGO"],
     },
    
   ];
   const sideProjects: PersonalWork[] = [
     {
       name: "Uber Data Analysis",
-      url: "https://sharuco.lndev.me/",
-      image: "/projects/sharuco.png",
-    },
-    {
-      name: "HR Data Analytics",
-      url: "https://lnui.lndev.me/",
-      image: "/projects/lnui.png",
-    },
-    {
-      name: "Super Store Sales Analysis",
-      url: "https://world-portfolios.vercel.app/",
-      image: "/projects/world-portfolio.png",
-    },
-    {
-      name: "Modern Youtube Clone",
-      url: "https://sitrabcam-web.leonelngoya.com/",
-      image: "/projects/sitrabcam.png",
-    },
-    {
-      name: "Human Activity Recognition",
-      url: "https://ulwo.lndev.me/",
-      image: "/projects/ulwo.png",
-    },
-    {
-      name: "Cryptomitra",
-      url: "https://webappphotography.leonelngoya.com/",
+      url: "https://github.com/pramodjoshi22/Uber-Data-Analysis_Data-Engineering-Project",
       image: "/projects/1.png",
     },
     {
-      name: "Oasis Infobyte",
-      url: "https://canon-yaounde.leonelngoya.com/",
+      name: "HR Data Analytics",
+      url: "https://github.com/pramodjoshi22/HR-Data-Analytics",
+      image: "/projects/2.png",
+    },
+    {
+      name: "Super Store Sales Analysis",
+      url: "https://github.com/pramodjoshi22/Sales-Data-Analysis",
       image: "/projects/3.png",
     },
     {
-      name: "Next.js Portfolio",
-      url: "https://flutter-cameroon.leonelngoya.com/",
+      name: "Modern Youtube Clone",
+      url: "https://modernyoutubee.netlify.app",
       image: "/projects/4.png",
+    },
+    {
+      name: "Human Activity Recognition",
+      url: "https://github.com/pramodjoshi22/Human-Activity-Recognition",
+      image: "/projects/5.jpg",
+    },
+    {
+      name: "Cryptomitra",
+      url: "https://github.com/pramodjoshi22/crytomitra.github.in",
+      image: "/projects/6.png",
+    },
+    {
+      name: "Oasis Infobyte",
+      url: "https://drive.google.com/file/d/1AKQb9MxPqsfKlvx2V88_nEK-V4MLzDho/view",
+      image: "/projects/7.jpg",
+    },
+    {
+      name: "Next.js Portfolio",
+      url: "https://singlecoredevelopers.tech/",
+      image: "/projects/8.png",
     },
     
   ];
@@ -188,6 +229,77 @@ export default function Experience() {
       </Head>
       <main className="experience">
         <div className="page__lines"></div>
+        <motion.div
+          className="experience-internship"
+          variants={container}
+          initial="hidden"
+          animate="show"
+        >
+          <div
+            className="experience-internship__title"
+            style={{ overflow: "hidden" }}
+          >
+            <motion.h2
+              animate={{ y: 0, opacity: 1 }}
+              initial={{ y: "50%", opacity: 0 }}
+              transition={{ delay: 0.1, duration: 0.5 }}
+            >
+            Patents
+            </motion.h2>
+          </div>
+          <div className="experience-internship__cards">
+            {patents.map((patents, index) => (
+              <motion.div className="card" key={index} variants={skillsItem}>
+                <div className="card-header">
+                  <div className="card-header__left">
+                    <h3>{patents.name}</h3>
+                    <p>{patents.position}</p>
+                  </div>
+                  <div className="card-header__right">
+                    <h3>{patents.date}</h3>
+                    <p>{patents.location}</p>
+                  </div>
+                </div>
+                <div className="card-description">
+                  <p>{patents.description}</p>
+                </div>
+                {patents.stacks && (
+                  <div className="card-stacks">
+                    {patents.stacks.map((item) => {
+                      return <button>{item}</button>;
+                    })}
+                  </div>
+                )}
+                <div className="card-footer">
+                  {patents.url && (
+                    <Link
+                      href={patents.url}
+                      passHref
+                      onMouseEnter={() => cursorChangeHandler("hovered")}
+                      onMouseLeave={() => cursorChangeHandler("")}
+                    >
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        strokeWidth={2}
+                        stroke="currentColor"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25"
+                        />
+                      </svg>
+                      <span>
+                            View Journal</span>
+                    </Link>
+                  )}
+                </div>
+              </motion.div>
+            ))}
+          </div>
+        </motion.div>
         <motion.div
           className="experience-works"
           variants={container}
@@ -320,7 +432,7 @@ export default function Experience() {
                           d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25"
                         />
                       </svg>
-                      <span>Website</span>
+                      <span>Certificate</span>
                     </Link>
                   )}
                 </div>
@@ -343,7 +455,78 @@ export default function Experience() {
               initial={{ y: "50%", opacity: 0 }}
               transition={{ delay: 0.1, duration: 0.5 }}
             >
-              Volunteerships
+              Open Source Contributation 
+            </motion.h2>
+          </div>
+          <div className="experience-internship__cards">
+            {Contribution.map((Contribution, index) => (
+              <motion.div className="card" key={index} variants={skillsItem}>
+                <div className="card-header">
+                  <div className="card-header__left">
+                    <h3>{Contribution.name}</h3>
+                    <p>{Contribution.position}</p>
+                  </div>
+                  <div className="card-header__right">
+                    <h3>{Contribution.date}</h3>
+                    <p>{Contribution.location}</p>
+                  </div>
+                </div>
+                <div className="card-description">
+                  <p>{Contribution.description}</p>
+                </div>
+                {Contribution.stacks && (
+                  <div className="card-stacks">
+                    {Contribution.stacks.map((item) => {
+                      return <button>{item}</button>;
+                    })}
+                  </div>
+                )}
+                <div className="card-footer">
+                  {Contribution.url && (
+                    <Link
+                      href={Contribution.url}
+                      passHref
+                      onMouseEnter={() => cursorChangeHandler("hovered")}
+                      onMouseLeave={() => cursorChangeHandler("")}
+                    >
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        strokeWidth={2}
+                        stroke="currentColor"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25"
+                        />
+                      </svg>
+                      <span>Website</span>
+                    </Link>
+                  )}
+                </div>
+              </motion.div>
+            ))}
+          </div>
+        </motion.div>
+        
+        <motion.div
+          className="experience-internship"
+          variants={container}
+          initial="hidden"
+          animate="show"
+        >
+          <div
+            className="experience-internship__title"
+            style={{ overflow: "hidden" }}
+          >
+            <motion.h2
+              animate={{ y: 0, opacity: 1 }}
+              initial={{ y: "50%", opacity: 0 }}
+              transition={{ delay: 0.1, duration: 0.5 }}
+            >
+            Volunteerships
             </motion.h2>
           </div>
           <div className="experience-internship__cards">
@@ -390,7 +573,7 @@ export default function Experience() {
                           d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25"
                         />
                       </svg>
-                      <span>Website</span>
+                      <span>Certificate</span>
                     </Link>
                   )}
                 </div>
@@ -398,7 +581,7 @@ export default function Experience() {
             ))}
           </div>
         </motion.div>
-        
+
         <motion.div
           className="experience-personal"
           variants={container}
