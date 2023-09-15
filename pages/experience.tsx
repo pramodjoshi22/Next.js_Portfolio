@@ -66,7 +66,7 @@ export default function Experience() {
     },
     {
       name: "Modern Youtube Clone",
-      url: "",
+      url: "https://modernyoutubee.netlify.app",
       position: "Front-end Developement",
       location: "Remote",
       date: "November 2022",
@@ -91,7 +91,7 @@ export default function Experience() {
       location: "Remote",
       date: "December 2021",
       description:
-        "Every year, an estimated 684,000 deathttps://modernyoutubee.netlify.apphs occur globally due to falls. Hence, the motivation behind this project is to detect falls through postural changes.",
+        "Every year, an estimated 684,000 deaths occur globally due to falls. Hence, the motivation behind this project is to detect falls through postural changes.",
       stacks: ["SVM", "ANN", "CNNLSTM"],
     },
   ];
