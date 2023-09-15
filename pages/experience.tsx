@@ -86,7 +86,7 @@ export default function Experience() {
     },
     {
       name: "Human Activity Recognition ",
-      url: "",
+      url: "https://github.com/pramodjoshi22/Human-Activity-Recognition",
       position: "Evaluation of Models",
       location: "Remote",
       date: "December 2021",
