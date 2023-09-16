@@ -69,7 +69,7 @@ export default function App({ Component, pageProps, router }: AppProps) {
           url: "https://linktr.ee/pramod_joshi",
           title: "Pramod Joshi",
           description:
-            "Hey, my name is Pramod Joshi but I am much better known as LN. I am FrontEnd Engineer and web integrator from India, I’m passionate about creating beautiful, intuitive and responsive websites.",
+            "Hey, my name is Pramod Joshi but I am much better known as PJ. I am FrontEnd Engineer and web integrator from India, I’m passionate about creating beautiful, intuitive and responsive websites.",
           images: [
             {
               url: "https://linktr.ee/pramod_joshi",
