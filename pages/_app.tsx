@@ -66,13 +66,13 @@ export default function App({ Component, pageProps, router }: AppProps) {
         description="Hey, my name is Pramod Joshi but I am much better known as PJ. I am FrontEnd Engineer and web integrator from India, I’m passionate about creating beautiful, intuitive and responsive websites."
         canonical="https://linktr.ee/pramod_joshi"
         openGraph={{
-          url: "https://linktr.ee/pramod_joshi",
+          url: "https://singlecoredevelopers.tech/",
           title: "Pramod Joshi",
           description:
             "Hey, my name is Pramod Joshi but I am much better known as PJ. I am FrontEnd Engineer and web integrator from India, I’m passionate about creating beautiful, intuitive and responsive websites.",
           images: [
             {
-              url: "https://linktr.ee/pramod_joshi",
+              url: "https://singlecoredevelopers.tech/",
               alt: "Pramod Joshi",
               type: "image/jpeg",
               secureUrl: "https://linktr.ee/pramod_joshi",
