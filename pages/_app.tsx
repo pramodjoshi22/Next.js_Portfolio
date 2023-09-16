@@ -72,7 +72,7 @@ export default function App({ Component, pageProps, router }: AppProps) {
             "Hey, my name is Pramod Joshi but I am much better known as PJ. I am FrontEnd Engineer and web integrator from India, I’m passionate about creating beautiful, intuitive and responsive websites.",
           images: [
             {
-              url: "/images/man.jpg",
+              url: "/images/man.png",
               alt: "Pramod Joshi",
               type: "image/jpeg",
               secureUrl: "https://linktr.ee/pramod_joshi",
