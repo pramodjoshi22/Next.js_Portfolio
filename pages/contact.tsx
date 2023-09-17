@@ -72,7 +72,7 @@ export default function Contact() {
             <ul>
               <motion.li variants={item}>
                 <a
-                  href="mailto:singlecoredevelopers@gmail.com"
+                  href="mailto:support@singlecoredevelopers.tech"
                   target="_blank"
                   rel="noreferrer"
                   onMouseEnter={() => cursorChangeHandler("hovered")}
