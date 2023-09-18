@@ -87,7 +87,7 @@ export default function App({ Component, pageProps, router }: AppProps) {
         }}
       />
       < Script strategy="afterInteractive" 
-        src="https://www.googletagmanager.com/gtag/js?id=G-0NK0E7YVDZ"
+        src="https://www.googletagmanager.com/gtag/js?id=G-DP8XV4PRWC"
       />
 
         <Script id="google-analytics" strategy="afterInteractive">
@@ -95,7 +95,7 @@ export default function App({ Component, pageProps, router }: AppProps) {
            window.dataLayer = window.dataLayer || [];
            function gtag(){dataLayer.push(arguments); }
            gtag('js', new Date());
-           gtag('config', 'G-0NK0E7YVDZ');
+           gtag('config', 'G-DP8XV4PRWC');
           
           `}
         </Script>
