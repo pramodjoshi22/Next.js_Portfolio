@@ -7,7 +7,7 @@ import MouseContextProvider from "../context/mouseContext";
 
 import GoogleAnalytics from "@bradgarropy/next-google-analytics";
 import { NextSeo } from "next-seo";
-import Script from "next/script";
+
 import Router from "next/router";
 import NProgress from "nprogress"; //nprogress module
 import { useEffect, useState, useRef } from "react";
@@ -86,20 +86,7 @@ export default function App({ Component, pageProps, router }: AppProps) {
           cardType: "summary_large_image",
         }}
       />
-      < Script strategy="afterInteractive" 
-        src="https://www.googletagmanager.com/gtag/js?id=G-DP8XV4PRWC"
-      />
-
-        <Script id="google-analytics" strategy="afterInteractive">
-          {`
-           window.dataLayer = window.dataLayer || [];
-           function gtag(){dataLayer.push(arguments); }
-           gtag('js', new Date());
-           gtag('config', 'G-DP8XV4PRWC');
-          
-          `}
-        </Script>
-
+      <GoogleAnalytics measurementId="G-DP8XV4PRWC" />
       <AnimatePresence mode="wait" initial={true}  onExitComplete={() => window.scrollTo(0, 0)}>
         <MouseContextProvider>
           <Cursor />
