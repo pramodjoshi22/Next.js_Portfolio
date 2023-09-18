@@ -86,7 +86,7 @@ export default function App({ Component, pageProps, router }: AppProps) {
           cardType: "summary_large_image",
         }}
       />
-      <GoogleAnalytics measurementId="G-S4ZVE62M33" />
+      <GoogleAnalytics measurementId="G-0NK0E7YVDZ" />
       <AnimatePresence mode="wait" initial={true}  onExitComplete={() => window.scrollTo(0, 0)}>
         <MouseContextProvider>
           <Cursor />
