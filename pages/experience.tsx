@@ -37,6 +37,15 @@ export default function Experience() {
   ]
   const works: Work[] = [
     {
+      name: "NLP Based Chatbots with Pipeline",
+      url: "#",
+      position: "AI",
+      location: "Remote",
+      date: "Sep 2023 - Present",
+      description: "By this project I am trying to develop a chatbot who is capable to understand simple English language and perform all the specific tasks, And the advanced stages I give inputs in any language, and it generate desired responces.",
+      stacks: ["Google Cloud Plateform", "Dialogflow", "FastAPI", "Python"],
+    },
+    {
       name: "Uber Data Analysis",
       url: "https://github.com/pramodjoshi22/Uber-Data-Analysis_Data-Engineering-Project",
       position: "Data Engineering",
