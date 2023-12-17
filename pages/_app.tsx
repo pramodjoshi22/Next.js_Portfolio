@@ -81,12 +81,12 @@ export default function App({ Component, pageProps, router }: AppProps) {
           siteName: "Pramod Joshi",
         }}
         twitter={{
-          handle: "@ln_dev7",
-          site: "@ln_dev7",
+          handle: "@pramodjoshi_222",
+          site: "@pramodjoshi_222",
           cardType: "summary_large_image",
         }}
       />
-      <GoogleAnalytics measurementId="G-DP8XV4PRWC" />
+      <GoogleAnalytics measurementId="G-RNQCP9LZV7" />
       <AnimatePresence mode="wait" initial={true}  onExitComplete={() => window.scrollTo(0, 0)}>
         <MouseContextProvider>
           <Cursor />
