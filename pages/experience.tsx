@@ -37,13 +37,13 @@ export default function Experience() {
   ]
   const works: Work[] = [
     {
-      name: "NLP Based Chatbots with Pipeline",
-      url: "#",
+      name: "Jarvis: The Ultimate voice assistant",
+      url: "https://github.com/pramodjoshi22/Jarvis--The-ultimate-voice-assistant",
       position: "AI",
       location: "Remote",
-      date: "Sep 2023 - Present",
-      description: "By this project I am trying to develop a chatbot who is capable to understand simple English language and perform all the specific tasks, And the advanced stages I give inputs in any language, and it generate desired responces.",
-      stacks: ["Google Cloud Plateform", "Dialogflow", "FastAPI", "Python"],
+      date: "Sep 2023 - Nov 2023",
+      description: "Developed a Python-based voice assistant integrated with the laptop system. Users can control functions through voice commands. The assistant has robust speech recognition and system interaction modules for a seamless experienc.",
+      stacks: ["PyCham", "pyttsx3", "webbrowser", "speech recognition"],
     },
     {
       name: "Uber Data Analysis",
@@ -105,6 +105,15 @@ export default function Experience() {
     },
   ];
   const internships: Work[] = [
+    {
+      name: "Uttarakhand Open University",
+      url: "#",
+      position: "Reserach Intern",
+      location: "Remote",
+      date: "Dec 2023 - Present",
+      description:"During this internship my main goal was to produce technical content on computer science related subjeccts.",
+      stacks: ["IOT", "food spoilage dection", "Arduino Uno"],
+    },
     {
       name: "Geeksforgeeks",
       url: "https://drive.google.com/file/d/1Cv4KCbCysNmK6nPsUgcfR9SRDTFhOamV/view",
