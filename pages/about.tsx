@@ -125,7 +125,7 @@ export default function about() {
          
             <motion.a
               variants={item}
-              href="https://drive.google.com/file/d/1wUhv5qEoUOFRLPVjKjvPZAPy5lIF_qFG/view?usp=sharing"
+              href="https://drive.google.com/file/d/1TAwyjGysK2MKfSJw_DUZs39t_FV1Bxhb/view?usp=sharing"
               target="_blank"
               rel="noreferrer"
               onMouseEnter={() => cursorChangeHandler("hovered")}
