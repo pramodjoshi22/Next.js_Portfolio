@@ -107,11 +107,11 @@ export default function Experience() {
   const internships: Work[] = [
     {
       name: "Uttarakhand Open University",
-      url: "#",
+      url: "https://drive.google.com/file/d/1v7mkL0uyMin3r5J7C-gcsXFOs-2LH4C0/view",
       position: "Reserach Intern",
       location: "Remote",
       date: "Dec 2023 - Present",
-      description:"During this internship my main goal was to produce technical content on computer science related subjeccts.",
+      description:"This project aims to provide insights into the system's ability to maintain optimal temperature conditions, ensure the integrity of stored goods, and enhance overall operational reliability. Additionally, it seeks to assess the system's capacity to generate real-time alerts, facilitate remote monitoring, and contribute to energy efficiency in cold storage facilities. ",
       stacks: ["IOT", "food spoilage dection", "Arduino Uno"],
     },
     {
